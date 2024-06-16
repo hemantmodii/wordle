@@ -75,6 +75,28 @@ h1 {
     margin-bottom: -30px;
     letter-spacing: 1rem;
     color: #538d4e;
-    text-decoration: underline;
+    text-decoration: double;
     text-underline-offset: 15px;
+}
+
+
+.notes li{
+    position: relative;
+    padding: 1.2rem;
+    width: 30%;
+    bottom: 538px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+}
+
+.note1, .note2, .note3, .note4 {
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(to bottom, #b59f3b90, #538d4e10);
+}
+
+.note3, .note4 {
+    background: linear-gradient(to bottom, #538d4e90,  #b59f3b10);
+    left: 61.5%;
 }
